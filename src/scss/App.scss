@@ -1,0 +1,9 @@
+@import "../scss/variables.scss";
+@mixin TabsStyle {
+  border-color: $border-color;
+  color: $color;
+}
+
+.tabs-bgborder {
+  @include TabsStyle();
+}
