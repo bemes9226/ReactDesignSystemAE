@@ -27,11 +27,11 @@ const objClasses={"parent":["aegov-banner","banner-top"],
   return (
     <div>
 
-    <Banner cls="jkhkj" note="hgjgkujhkjhukjhkjkjk" action="kjhjkhgjgbjhvgvgvh"/>
+    {/* <Banner cls="jkhkj" note="hgjgkujhkjhukjhkjkjk" action="kjhjkhgjgbjhvgvgvh"/> */}
 
        {/* <h1>{text}</h1> */}
 
-      {/* <BrowserRouter>
+      <BrowserRouter>
       <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -43,7 +43,7 @@ const objClasses={"parent":["aegov-banner","banner-top"],
           <Route path="/SwitchLanguage" element={<SwitchLanguage />} />
         </Routes>
         <Footer />
-      </BrowserRouter> */}
+      </BrowserRouter>
     </div>
   )
 };
